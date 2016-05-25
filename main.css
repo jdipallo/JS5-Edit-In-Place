@@ -1,0 +1,52 @@
+/* css for JS5 */
+
+body {
+    background-image: url('./assets/wood.jpg');
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#profileImage {
+    display: inline-block;
+    background: url('assets/profileImage.png');
+    background-size: cover;
+    width: 200px;
+    height: 400px;
+    padding: 50px;
+}
+
+.blocks {
+    position: absolute;
+    /*top: 50%;*/
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-image: url('assets/paper.jpg');
+    background-size: cover;
+    font-family: 'Indie Flower', cursive;    
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    opacity: .7;
+    border-radius: 5px;
+    width: 35%;
+    height: 475px;
+}
+
+.blocks div {
+    margin: 40px;
+}
+
+.blocks textarea {
+    width: 175px;
+    height: 100px;
+}
+
+.blocks p {
+    overflow: auto;
+}
