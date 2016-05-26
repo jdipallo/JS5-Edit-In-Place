@@ -1,5 +1,11 @@
 // JS5-Edit-In-Place
 
+// **** For the first pass, I have duplicated each click/blur handler for
+// each element on the profile page. VERY redundant indeed. However, I plan
+// on modularizing and creating one callback/listener for the click and one
+// for the blur. So, 8 functions goes down to 2.
+// **************************************************
+
 // lets add event listeners to our blocks of text
 document.getElementById('name').addEventListener('click', clickedName);
 document.getElementById('phone').addEventListener('click', clickedPhone);
